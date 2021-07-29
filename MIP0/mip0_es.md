@@ -53,7 +53,7 @@ MIP0 defines the *Maker Improvement Proposals (MIPs) Framework* for all subseque
 *Provides the MIP templates for both General and Technical MIPs.*  
 
 **MIP0c8: MIP0 Domain Role Dependencies**    
-*Defines the core roles essential to the MIP Framework.*  
+*Define los roles básicos esenciales para el MIP Framework.*  
 
 **MIP0c9: MIP Editor Role**  
 *Defines the responsibilities of the MIP Editor role and the criteria and grounds for their removal.*  
@@ -70,13 +70,13 @@ MIP0 defines the *Maker Improvement Proposals (MIPs) Framework* for all subseque
 **MIP0c13: MIP Set Management**  
 *Defines procedures for managing MIP Sets.*  
 
-## Motivation
+## Motivación
 
 For MakerDAO to evolve into a fully decentralized and self-sustainable organization, a formalized process of decision-making is required. In a permissionless protocol, everyone should be able to propose changes and improvements.
 
 The MIP Framework serves to empower each off-chain and on-chain Governance participant by giving them a standardized way of interacting with the wider DAO and defining its future shape.
 
-## Specification / Proposal Details
+## Detalles de la Especificación / Propuesta
 
 ### MIP0c1: Definitions of the Maker Improvement Proposal Framework
 
