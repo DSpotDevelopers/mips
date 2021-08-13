@@ -23,7 +23,7 @@ Replaces: n/a
 
 ## Sentence Summary
 
-MIP0 defines the *Maker Improvement Proposals (MIPs) Framework* for all subsequent MIPs to utilize.
+MIP0 defines the *Maker Improvement Proposals (MIPs) Framework* for all subsequent MIPs to use.
 
 ## Paragraph Summary
 
