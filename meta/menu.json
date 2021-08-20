@@ -259,6 +259,12 @@
                     "name": "Other Readme Example",
                     "href":
                       "https://raw.githubusercontent.com/DSpotDevelopers/makerdao-mips/develop/README.md"
+                },
+                 {
+                    "id": "otherLinkExtra",
+                    "name": "Any Other thing",
+                    "href":
+                      "https://github.com/makerdao/mips/blob/master/MIP10/MIP10c10-Subproposal-Template.md"
                 }
             ]
         }
