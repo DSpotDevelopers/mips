@@ -204,13 +204,13 @@
                 {
                     "id": "implemented",
                     "name": "Implemented",
-                    "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+                    "href": "http://mips.makerdao.com/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
                     "custom_view_name": "Implemented"
                 },
                 {
                     "id": "pending",
                     "name": "Pending Implementation",
-                    "href": "http://localhost:4200/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
+                    "href": "http://mips.makerdao.com/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
                     "custom_view_name": "Pending Implementation"
                 }
             ]
@@ -218,8 +218,32 @@
         {
             "id": "process",
             "name": "Processes",
-            "href": "http://localhost:4200/mips/list?&search=$%20%23process",
+            "href": "http://mips.makerdao.com/mips/list?&search=$%20%23process",
             "custom_view_name": "Processes"
+        },
+        {
+            "id": "technical2",
+            "name": "Technical 2",
+            "children": [
+                {
+                    "id": "implemented2",
+                    "name": "Implemented 2",
+                    "href": "http://localhost:4200/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+                    "custom_view_name": "Implemented 2"
+                },
+                {
+                    "id": "pending2",
+                    "name": "Pending Implementation 2",
+                    "href": "http://localhost:4200/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
+                    "custom_view_name": "Pending Implementation 2"
+                }
+            ]
+        },
+        {
+            "id": "process2",
+            "name": "Processes 2",
+            "href": "http://localhost:4200/mips/list?&search=$%20%23process",
+            "custom_view_name": "Processes 2"
         },
         {
             "id": "contact",
