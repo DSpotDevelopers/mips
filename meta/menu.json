@@ -204,19 +204,22 @@
                 {
                     "id": "implemented",
                     "name": "Implemented",
-                    "href": "https://mips.makerdao.com/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false"
+                    "href": "https://mips.makerdao.com/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false",
+                    "custom_view_name": "Implemented"
                 },
                 {
                     "id": "pending",
                     "name": "Pending Implementation",
-                    "href": "https://mips.makerdao.com/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false"
+                    "href": "https://mips.makerdao.com/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false",
+                    "custom_view_name": "Pending Implementation"
                 }
             ]
         },
         {
             "id": "process",
             "name": "Processes",
-            "href": "https://mips.makerdao.com/mips/list?&search=$%20%23process"
+            "href": "https://mips.makerdao.com/mips/list?&search=$%20%23process",
+            "custom_view_name": "Processes"
         },
         {
             "id": "contact",
