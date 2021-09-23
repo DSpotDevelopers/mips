@@ -186,16 +186,12 @@ data:
         custom_view_name: Multi-queries set 1
         queries:
           - id: query_1
-            name: Accepted
             query: "@Accepted"
           - id: query_2
-            name: RFC
             query: "@RFC"
           - id: query_3
-            name: Rejected or Obsolete
             query: "OR(@Rejected,@Obsolete)"
           - id: query_4
-            name: Reje & collateral-onb
             query: "AND(@Rejected, #collateral-onboarding)"   
       - id: set_2
         name: Set 2
@@ -203,10 +199,8 @@ data:
         custom_view_name: Multi-queries set 2
         queries:
           - id: query_1
-            name: Formal Submission
             query: "@Formal Submission"
           - id: query_2
-            name: not rej
             query: "AND(NOT(@Rejected), NOT(@Obsolete),#cu-gov-001)"
   - id: queries
     name: Queries
@@ -217,16 +211,12 @@ data:
         custom_view_name: Multi-queries set 1
         queries:
           - id: query_1
-            name: Accepted
             query: "@Accepted"
           - id: query_2
-            name: RFC
             query: "@RFC"
           - id: query_3
-            name: Rejected or Obsolete
             query: "OR(@Rejected,@Obsolete)"
           - id: query_4
-            name: Reje & collateral-onb
             query: "AND(@Rejected, #collateral-onboarding)"   
       - id: set_2
         name: Set 2
@@ -234,8 +224,6 @@ data:
         custom_view_name: Multi-queries set 2
         queries:
           - id: query_1
-            name: Formal Submission
             query: "@Formal Submission"
           - id: query_2
-            name: not rej
             query: "AND(NOT(@Rejected), NOT(@Obsolete),#cu-gov-001)"
