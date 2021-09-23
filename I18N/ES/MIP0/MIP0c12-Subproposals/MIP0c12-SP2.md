@@ -53,7 +53,7 @@ Para mitigar un poco todo lo anterior de 'este trabajo es horrible': esa es una 
 
 ---
 
-### Informacion relevante
+### Información relevante
 - Cuenta de GitHub: [@LongForWisdom](https://github.com/LongForWisdom)
 - Cuenta del foro de MakerDAO: [@LongForWisdom](https://forum.makerdao.com/u/longforwisdom/)
 - Cuenta de Reddit: [@LongForWisdom](https://www.reddit.com/user/LongForWisdom)
