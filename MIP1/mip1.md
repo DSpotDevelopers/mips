@@ -13,6 +13,7 @@ Date Proposed: 2020-04-06
 Date Ratified: 2020-05-2
 Dependencies: n/a
 Replaces: n/a
+votingPortalLink: https://vote.makerdao.com/executive?network=mainnet
 ```
 
 ## References

@@ -14,6 +14,10 @@ Date Ratified: 2020-05-02
 Last Amended: 2021-04-29
 Dependencies: n/a
 Replaces: n/a
+votingPortalLink: https://vote.makerdao.com/executive?network=mainnet
+forumLink: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
+ratifiedData: https://vote.makerdao.com/executive/template-executive-vote-collateral-onboarding-and-offboarding-psm-dc-iam-changes-september-17-2021?network=mainnet#proposal-detail
+
 ```
 
 ## References
