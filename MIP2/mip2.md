@@ -13,8 +13,6 @@ Date Proposed: 2020-04-06
 Date Ratified: 2020-05-02
 Dependencies: MIP0, MIP1
 Replaces: n/a
-votingPortalLink: https://vote.makerdao.com/executive?network=mainnet
-forumLink: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
 ```
 
 ## References
