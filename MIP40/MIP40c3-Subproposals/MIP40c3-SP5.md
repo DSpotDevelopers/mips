@@ -65,7 +65,7 @@ We aim to provide salaries competitive with regard to market rates and the compe
 |**Total**|133,124 DAI| 100% |
 
 #### Budget Implementation
-[Simple Budget Implementation](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d78#simple-budget-implementations)
+[Simple Budget Implementation](http://159.203.86.45:8000/mips/details/60626de7e65b747f996b3d78#simple-budget-implementations)
 
 133.124 Dai covers 3 months; we’re requesting 1/3 (44,375) per month.
 

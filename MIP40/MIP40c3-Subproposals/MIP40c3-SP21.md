@@ -97,7 +97,7 @@ We’re asking for a month’s worth of salaries (46,500 DAI) to be paid in the 
 
 #### Budget Implementation
 
-[Simple Budget Implementation](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d78#simple-budget-implementations)
+[Simple Budget Implementation](http://159.203.86.45:8000/mips/details/60626de7e65b747f996b3d78#simple-budget-implementations)
 
 We will set up a Content Production multi-sig wallet in accordance with [MIP 47](https://forum.makerdao.com/t/mip47-makerdao-multisignature-wallet-management/6338) - details will be shared [here](https://forum.makerdao.com/t/adding-content-production-multisig/8428) once the wallet is set up.
 
