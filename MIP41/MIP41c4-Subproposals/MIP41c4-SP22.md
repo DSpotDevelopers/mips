@@ -80,5 +80,5 @@ A pretty classic “from user to contributor” story you can see at open source
 
 ### Related Documents
 
-* [MIP39c2-SP21](https://mips.makerdao.com/mips/details/MIP39c2SP21)
-* [MIP40c3-SP32](https://mips.makerdao.com/mips/details/MIP40c3SP2)
+* [MIP39c2-SP21](http://159.203.86.45:8000/mips/details/MIP39c2SP21)
+* [MIP40c3-SP32](http://159.203.86.45:8000/mips/details/MIP40c3SP2)

@@ -135,7 +135,7 @@ El Marco MIP sirve para empoderar a cada participante de Gobernanza dentro y fue
 
    Estos períodos pueden superponerse. Consulte `MIP0c1` para conocer sus definiciones.
    
-> Tenga en cuenta que las longitudes de estos períodos están anuladas condicionalmente por [MIP2](https://github.com/makerdao/mips/blob/master/MIP2/mip2.md), más específicamente por [MIP2c2](https://mips.makerdao.com/mips/details/MIP2#mip2c2-interim-phase-2).
+> Tenga en cuenta que las longitudes de estos períodos están anuladas condicionalmente por [MIP2](https://github.com/makerdao/mips/blob/master/MIP2/mip2.md), más específicamente por [MIP2c2](http://159.203.86.45:8000/mips/details/MIP2#mip2c2-interim-phase-2).
 
 4. **Requisitos del período de comentarios cumplidos:** Una vez que el MIP ha cumplido con la fase de RFC, está listo para la presentación formal.
 

@@ -38,7 +38,7 @@ I believe I am a suitable candidate for this role due to my current involvement 
     - Host of [Core Unit Tools Calls](https://forum.makerdao.com/c/core-units/core-unit-meetings/32)
 - Created [coreunit.makerdao.network](https://coreunit.makerdao.network) : a place for resources and tools for Core Units (existing and to be)
 - Created [makerdao.network](https://makerdao.network) : a place to quickly spin Maker-related things
-- Helping Governance Alpha with the [MIPs Portal](https://mips.makerdao.com/) creation and MIP-related tasks
+- Helping Governance Alpha with the [MIPs Portal](http://159.203.86.45:8000/) creation and MIP-related tasks
 - Helping Mandated Actors
 - Participating in Autonomous MakerDAO working group
 - Participated in the CDIP (CommDevs Micro-Grants) Program

@@ -43,7 +43,7 @@ Subsequent to the launch of delegation, we plan to continue to organize and deli
 Proper educational knowledge is essential for newer participants to vote and engage effectively in governance at MakerDAO. As such, we are prioritizing getting easily accessible educational materials out to the community this quarter. We will focus our educational efforts on three key areas:
 - Ongoing development of the Maker Operational Manual. 
 - Expansion of Parameter Documentation for Liquidations 2.0 and RWA terms.
-- Adding educational content to the [MIPs Portal](https://mips.makerdao.com/). 
+- Adding educational content to the [MIPs Portal](http://159.203.86.45:8000/). 
 
 We plan to work with the Content Productions Core Unit to create high-quality educational materials that are visually inviting and easy for newer users to engage with. 
 

@@ -122,7 +122,7 @@ Travel - 20,000
 
 ### Budget Implementation
 
-[Simple Budget Implementation](https://mips.makerdao.com/mips/details/MIP40#simple-budget-implementations)
+[Simple Budget Implementation](http://159.203.86.45:8000/mips/details/MIP40#simple-budget-implementations)
 
 We’ve set up a Content Production multi-sig wallet in accordance with [MIP 47](https://github.com/makerdao/mips/blob/master/MIP47/MIP47.md) - details are [here.](https://forum.makerdao.com/t/adding-content-production-multisig/8428)
 

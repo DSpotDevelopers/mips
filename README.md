@@ -4,7 +4,7 @@ Maker Improvement Proposals are the preferred mechanism for improving both Maker
 
 Through an open and documented process, community feedback will be collected to reach the broadest possible consensus on how the MakerDAO should evolve. Furthermore, MIPs provide a mechanism for any community member to define key issues and suggest changes and additions to the system. The MIPs process is conducted with a high level of transparency, rigor, and community input in order to minimize undesirable results. 
 
-For a current and historical view of proposed MIPs, please check out the [MIPs Portal](https://mips.makerdao.com/). In short, the portal should be the go-to resource for anyone wanting to explore MIPs (and the subproposals derived from them) in a reader-friendly manner. The Portal features smart-linking, on-hover previews, predefined common queries (Views), and advanced queries with logical operators and filters.
+For a current and historical view of proposed MIPs, please check out the [MIPs Portal](http://159.203.86.45:8000/). In short, the portal should be the go-to resource for anyone wanting to explore MIPs (and the subproposals derived from them) in a reader-friendly manner. The Portal features smart-linking, on-hover previews, predefined common queries (Views), and advanced queries with logical operators and filters.
 
 # The MIP Framework Overview
 
@@ -60,7 +60,7 @@ After the two above tasks have been completed, MIP Editors will help assign a nu
 
 If all goes well, by the end of the process you will have contributed a piece of MakerDAO legislation. And that's the gist of it! 
 
-For a more detailed breakdown of the procedure, please read [MIP0c3](https://mips.makerdao.com/mips/details/MIP0#mip0c3-the-mip-lifecycle).
+For a more detailed breakdown of the procedure, please read [MIP0c3](http://159.203.86.45:8000/mips/details/MIP0#mip0c3-the-mip-lifecycle).
 
 ## Contact Information 
 

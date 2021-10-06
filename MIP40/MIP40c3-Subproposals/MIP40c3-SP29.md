@@ -147,7 +147,7 @@ The full budget can be found [here](https://docs.google.com/spreadsheets/d/1o_Ii
 
 This new line item is intended to provide a parameter-focused frontend for the community. Part of the intention is to build redundancy in relevant Governance UIs, with the main goal to have a functioning portal featuring the current settings of parameters controlled by Governance.
 
-We have contracted the same team (dSpot) that created the [MIPs Portal](https://mips.makerdao.com). We are impressed by the rate and overall product in that project and look forward to delivering more value to the community through this relationship.
+We have contracted the same team (dSpot) that created the [MIPs Portal](http://159.203.86.45:8000). We are impressed by the rate and overall product in that project and look forward to delivering more value to the community through this relationship.
 
 **Snapshot**
 
