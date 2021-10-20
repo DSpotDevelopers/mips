@@ -1,209 +1,229 @@
+---
 data:
   - id: learn
-    name: Learn
+    name: $learn
     children:
       - id: portaldoc
-        name: The MIPs Portal
-        href: 'https://mips.makerdao.com'
+        name: $mips_portal
+        href: http://159.203.86.45:8000
       - id: primer
         name: A Primer for Proposal Authors
-        href: >-
-          https://github.com/makerdao/mips/blob/master/meta/primer_for_authors/primer_for_authors.md
+        href: https://github.com/makerdao/mips/blob/master/meta/primer_for_authors/primer_for_authors.md
       - id: mip0
-        name: The MIPs Framework
-        href: 'https://mips.makerdao.com/mips/details/MIP0'
-      - id: mip51
-        name: Monthly Governance Cycle
-        href: 'https://mips.makerdao.com/mips/details/MIP51'
-  - id: views
-    name: Views
+        name: $technical
+        href: http://159.203.86.45:8000/mips/details/MIP0
+      - id: mip3
+        name: Governance Cycle
+        href: http://159.203.86.45:8000/mips/details/MIP3
+  - id: mipsets
+    name: MIP Sets
+    href: http://159.203.86.45:8000/mips/list?&search=&mipsetMode=true
+  - id: living
+    name: Living MIPs
+    href: http://159.203.86.45:8000/mips/list?&search=$AND(@Accepted,%23living)
+  - id: status
+    name: Status
     children:
-      - id: status
-        name: Status
+      - id: rfc
+        name: RFC
+        href: http://159.203.86.45:8000/mips/list?&search=$@RFC
+      - id: fs
+        name: Formal Submission
+        href: http://159.203.86.45:8000/mips/list?&search=$@Formal%20Submission
+      - id: accepted
+        name: Accepted
+        href: http://159.203.86.45:8000/mips/list?&search=$@Accepted
+      - id: obsolete
+        name: Obsolete
+        href: http://159.203.86.45:8000/mips/list?&search=$@Obsolete
+      - id: rejected
+        name: Rejected
+        href: http://159.203.86.45:8000/mips/list?&search=$@Rejected
+      - id: withdrawn
+        name: Withdrawn
+        href: http://159.203.86.45:8000/mips/list?&search=$@Withdrawn
+  - id: coreunits
+    name: Core Units
+    children:
+      - id: allcus
+        name: "All (MIP38c2: Core Unit State)"
+        href: http://159.203.86.45:8000/mips/details/MIP38#mip38c2-core-unit-state
+      - id: activebudgets
+        name: Active Budgets
         children:
-          - id: rfc
-            name: RFC
-            href: 'https://mips.makerdao.com/mips/list?&search=$@RFC'
-          - id: fs
-            name: Formal Submission
-            href: 'https://mips.makerdao.com/mips/list?&search=$@Formal%20Submission'
-          - id: accepted
-            name: Accepted
-            href: 'https://mips.makerdao.com/mips/list?&search=$@Accepted'
-          - id: obsolete
-            name: Obsolete
-            href: 'https://mips.makerdao.com/mips/list?&search=$@Obsolete'
-          - id: rejected
-            name: Rejected
-            href: 'https://mips.makerdao.com/mips/list?&search=$@Rejected'
-          - id: withdrawn
-            name: Withdrawn
-            href: 'https://mips.makerdao.com/mips/list?&search=$@Withdrawn'
-      - id: coreunits
-        name: Core Units
+          - id: daibudgets
+            name: DAI Budgets
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23active,%20%23dai-budget)
+          - id: mkrbudgets
+            name: MKR Budgets
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23active,%20%23mkr-budget)
+      - id: com-001
+        name: "COM-001: Governance Communications"
         children:
-          - id: allcus
-            name: 'All (MIP38c2: Core Unit State)'
-            href: >-
-              https://mips.makerdao.com/mips/details/MIP38#mip38c2-core-unit-state
-          - id: activebudgets
-            name: Active Budgets
-            href: https://mips.makerdao.com/mips/list?customViewName=Active%20Budgets&_DAI%20Budgets=$AND(%23active,%23dai-budget)&_MKR%20Budgets=$AND(%23active,%23mkr-budget)
-          - id: ces-001
-            name: 'CES-001: Collateral Engineering'
-            children:
-              - id: ces-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Collateral%20Engineering%20Services%20Core%20Unit%20(CES-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-ces-001,%23mandate)&_Budgets=$AND(%23active,%23cu-ces-001,%23budget)&_Facilitators=$AND(%23active,%23cu-ces-001,%23facilitator)
-          - id: com-001
-            name: 'COM-001: Governance Communications'
-            children:
-              - id: com-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Governance%20Communications%20Core%20Unit%20(COM-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-com-001,%23mandate)&_Budgets=$AND(%23active,%23cu-com-001,%23budget)&_Facilitators=$AND(%23active,%23cu-com-001,%23facilitator)
-          - id: daif-001
-            name: 'DAIF-001: Dai Foundation'
-            children:
-              - id: daif-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Dai%20Foundation%20Core%20Unit%20(DAIF-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-daif-001,%23mandate)&_Budgets=$AND(%23active,%23cu-daif-001,%23budget)&_Facilitators=$AND(%23active,%23cu-daif-001,%23facilitator)
-          - id: dux-001
-            name: 'DUX-001: Development and UX'
-            children:
-              - id: dux-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Development%20and%20UX%20Core%20Unit%20(DUX-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-dux-001,%23mandate)&_Budgets=$AND(%23active,%23cu-dux-001,%23budget)&_Facilitators=$AND(%23active,%23cu-dux-001,%23facilitator)
-          - id: gov-001
-            name: 'GOV-001: Governance'
-            children:
-              - id: gov-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=GovAlpha%20Core%20Unit%20(GOV-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-gov-001,%23mandate)&_Budgets=$AND(%23active,%23cu-gov-001,%23budget)&_Facilitators=$AND(%23active,%23cu-gov-001,%23facilitator)
-              - id: gov-001-inactive
-                name: Archive
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=GovAlpha%20Core%20Unit%20(GOV-001)%20-%20Subproposals%20no%20longer%20in%20Force&_Budgets=$AND(NOT(%23active),@Accepted,%23cu-gov-001,%23budget)
-          - id: gro-001
-            name: 'GRO-001: Growth'
-            children:
-              - id: gro-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Growth%20Core%20Unit%20(GRO-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-gro-001,%23mandate)&_Budgets=$AND(%23active,%23cu-gro-001,%23budget)&_Facilitators=$AND(%23active,%23cu-gro-001,%23facilitator)
-              - id: gro-001-inactive
-                name: Archive
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Growth%20Core%20Unit%20(GRO-001)%20-%20Subproposals%20no%20longer%20in%20Force&_Budgets=$AND(NOT(%23active),@Accepted,%23cu-gro-001,%23budget)
-          - id: mds-001
-            name: 'MDS-001: MakerDAO Shop'
-            children:
-              - id: mds-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=MakerDAO%20Shop%20Core%20Unit%20(MDS-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-mds-001,%23mandate)&_Budgets=$AND(%23active,%23cu-mds-001,%23budget)&_Facilitators=$AND(%23active,%23cu-mds-001,%23facilitator)
-          - id: mkt-001
-            name: 'MKT-001: Content Production'
-            children:
-              - id: mkt-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Content%20Production%20Core%20Unit%20(MKT-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-mkt-001,%23mandate)&_Budgets=$AND(%23active,%23cu-mkt-001,%23budget)&_Facilitators=$AND(%23active,%23cu-mkt-001,%23facilitator)
-              - id: mkt-001-inactive
-                name: Archive
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Content%20Production%20Core%20Unit%20(MKT-001)%20-%20Subproposals%20no%20longer%20in%20Force&_Budgets=$AND(NOT(%23active),@Accepted,%23cu-mkt-001,%23budget)
-          - id: ora-001
-            name: 'ORA-001: Oracles'
-            children:
-              - id: ora-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Oracle%20Core%20Unit%20(ORA-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-ora-001,%23mandate)&_Budgets=$AND(%23active,%23cu-ora-001,%23budget)&_Facilitators=$AND(%23active,%23cu-ora-001,%23facilitator)
-          - id: pe-001
-            name: 'PE-001: Protocol Engineering'
-            children:
-              - id: pe-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Protocol%20Engineering%20Core%20Unit%20(PE-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-pe-001,%23mandate)&_Budgets=$AND(%23active,%23cu-pe-001,%23budget)&_Facilitators=$AND(%23active,%23cu-pe-001,%23facilitator)
-          - id: risk-001
-            name: 'RISK-001: Risk'
-            children:
-              - id: risk-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Risk%20Core%20Unit%20(RISK-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-risk-001,%23mandate)&_Budgets=$AND(%23active,%23cu-risk-001,%23budget)&_Facilitators=$AND(%23active,%23cu-risk-001,%23facilitator)
-              - id: risk-001-inactive
-                name: Archive
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Risk%20Core%20Unit%20(RISK-001)%20-%20Subproposals%20no%20longer%20in%20Force&_Budgets=$AND(NOT(%23active),@Accepted,%23cu-risk-001,%23budget)
-          - id: rwf-001
-            name: 'RWF-001: Real-World Finance'
-            children:
-              - id: rwf-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Real-World%20Finance%20Core%20Unit%20(RWF-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-rwf-001,%23mandate)&_Budgets=$AND(%23active,%23cu-rwf-001,%23budget)&_Facilitators=$AND(%23active,%23cu-rwf-001,%23facilitator)
-              - id: rwf-001-inactive
-                name: Archive
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Real-World%20Finance%20Core%20Unit%20(RWF-001)%20-%20Subproposals%20no%20longer%20in%20Force&_Budgets=$AND(NOT(%23active),@Accepted,%23cu-rwf-001,%23budget)
-          - id: ses-001
-            name: 'SES-001: Sustainable Ecosystem Scaling'
-            children:
-              - id: ses-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Sustainable%20Ecosystem%20Scaling%20Core%20Unit%20(SES-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-ses-001,%23mandate)&_Budgets=$AND(%23active,%23cu-ses-001,%23budget)&_Facilitators=$AND(%23active,%23cu-ses-001,%23facilitator)
-              - id: ses-001-inactive
-                name: Archive
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Sustainable%20Ecosystem%20Scaling%20Core%20Unit%20(SES-001)%20-%20Subproposals%20no%20longer%20in%20Force&_Budgets=$AND(NOT(%23active),@Accepted,%23cu-ses-001,%23budget)
-          - id: sne-001
-            name: 'SNE-001: StarkNet Engineering'
-            children:
-              - id: sne-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=StarkNet%20Engineering%20Core%20Unit%20(SNE-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-sne-001,%23mandate)&_Budgets=$AND(%23active,%23cu-sne-001,%23budget)&_Facilitators=$AND(%23active,%23cu-sne-001,%23facilitator)
-          - id: sh-001
-            name: 'SH-001: Strategic Happiness'
-            children:
-              - id: sh-001-active
-                name: Subproposals in Force
-                href: >-
-                  https://mips.makerdao.com/mips/list?customViewName=Strategic%20Happiness%20Core%20Unit%20(SH-001)%20-%20Subproposals%20in%20Force&_Mandate=$AND(%23active,%23cu-sh-001,%23mandate)&_Budgets=$AND(%23active,%23cu-sh-001,%23budget)&_Facilitators=$AND(%23active,%23cu-sh-001,%23facilitator)
-      - id: mipsets
-        name: MIP Sets
-        href: 'https://mips.makerdao.com/mips/list?&search=&mipsetMode=true'
-      - id: living
-        name: Living MIPs
-        href: 'https://mips.makerdao.com/mips/list?&search=$AND(@Accepted,%23living)'
-      - id: technical
-        name: Technical
+          - id: com-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-com-001,%20%23active)&subproposalsMode=true
+          - id: com-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-com-001,NOT(%23active),@Accepted)
+      - id: daif-001
+        name: "DAIF-001: Dai Foundation"
         children:
-          - id: implemented
-            name: Implemented
-            href: >-
-              https://mips.makerdao.com/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false
-          - id: pending
-            name: Pending Implementation
-            href: >-
-              https://mips.makerdao.com/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false
-      - id: process
-        name: Processes
-        href: 'https://mips.makerdao.com/mips/list?&search=$%20%23process'
+          - id: daif-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-daif-001,%20%23active)&subproposalsMode=true
+          - id: daif-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-daif-001,NOT(%23active),@Accepted)
+      - id: mkt-001
+        name: "MKT-001: Content Creation"
+        children:
+          - id: mkt-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-mkt-001,%20%23active)&subproposalsMode=true
+          - id: mkt-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-mkt-001,NOT(%23active),@Accepted)
+      - id: gov-001
+        name: "GOV-001: Governance"
+        children:
+          - id: gov-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-gov-001,%20%23active)&subproposalsMode=true
+          - id: gov-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-gov-001,NOT(%23active),@Accepted)
+      - id: gro-001
+        name: "GRO-001: Growth"
+        children:
+          - id: gro-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-gro-001,%20%23active)&subproposalsMode=true
+          - id: gro-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-gro-001,NOT(%23active),@Accepted)
+      - id: mds-001
+        name: "MDS-001: MakerDAO Shop"
+        children:
+          - id: mds-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-mds-001,%20%23active)&subproposalsMode=true
+          - id: mds-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-mds-001,NOT(%23active),@Accepted)
+      - id: ora-001
+        name: "ORA-001: Oracles"
+        children:
+          - id: ora-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-ora-001,%20%23active)&subproposalsMode=true
+          - id: ora-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-ora-001,NOT(%23active),@Accepted)
+      - id: pe-001
+        name: "PE-001: Protocol Engineering"
+        children:
+          - id: pe-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-pe-001,%20%23active)&subproposalsMode=true
+          - id: pe-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-pe-001,NOT(%23active),@Accepted)
+      - id: risk-001
+        name: "RISK-001: Risk"
+        children:
+          - id: rsk-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-risk-001,%20%23active)&subproposalsMode=true
+          - id: rsk-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-risk-001,NOT(%23active),@Accepted)
+      - id: rwf-001
+        name: "RWF-001: Real-World Finance"
+        children:
+          - id: rwf-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-rwf-001,%20%23active)&subproposalsMode=true
+          - id: rwf-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-rwf-001,NOT(%23active),@Accepted)
+      - id: ses-001
+        name: "SES-001: Sustainable Ecosystem Scaling"
+        children:
+          - id: ses-001-active
+            name: Subproposals in Force
+            href: http://159.203.86.45:8000/mips/list?&search=$and(%23cu-ses-001,%20%23active)
+          - id: ses-001-inactive
+            name: Archive
+            href: http://159.203.86.45:8000/mips/list?&search=$AND(%23cu-ses-001,NOT(%23active),@Accepted)
+  - id: technical
+    name: Technical
+    children:
+      - id: implemented
+        name: Implemented
+        href: http://159.203.86.45:8000/mips/list?&search=$AND(%23technical,%20NOT(%23pending-implementation))&subproposalsMode=false
+      - id: pending
+        name: Pending Implementation
+        href: http://159.203.86.45:8000/mips/list?&search=$AND(@accepted,%20%23pending-implementation)&subproposalsMode=false
+  - id: process
+    name: Processes
+    href: http://159.203.86.45:8000/mips/list?&search=$%20%23process
   - id: contact
     name: Get in Touch
     children:
       - id: forum
         name: Forum
-        href: 'https://forum.makerdao.com/c/mips/14'
+        href: https://forum.makerdao.com/c/mips/14
       - id: chat
         name: Chat
-        href: 'http://chat.makerdao.com/'
+        href: http://chat.makerdao.com/
+  - id: queries_local
+    name: Queries(local)
+    children:
+      - id: set_1
+        name: Set 1
+        href: http://localhost:4200/mips/list
+        custom_view_name: Multi-queries set 1
+        queries:
+          - id: query_1
+            query: "@Accepted"
+          - id: query_2
+            query: "@RFC"
+          - id: query_3
+            query: "OR(@Rejected,@Obsolete)"
+          - id: query_4
+            query: "AND(@Rejected, #collateral-onboarding)"   
+      - id: set_2
+        name: Set 2
+        href: http://localhost:4200/mips/list
+        custom_view_name: Multi-queries set 2
+        queries:
+          - id: query_1
+            query: "@Formal Submission"
+          - id: query_2
+            query: "AND(NOT(@Rejected), NOT(@Obsolete),#cu-gov-001)"
+  - id: queries
+    name: Queries
+    children:
+      - id: set_1
+        name: Set 1
+        href: http://159.203.86.45:8000//mips/list
+        custom_view_name: Multi-queries set 1
+        queries:
+          - id: query_1
+            query: "@Accepted"
+          - id: query_2
+            query: "@RFC"
+          - id: query_3
+            query: "OR(@Rejected,@Obsolete)"
+          - id: query_4
+            query: "AND(@Rejected, #collateral-onboarding)"   
+      - id: set_2
+        name: Set 2
+        href: http://159.203.86.45:8000//mips/list
+        custom_view_name: Multi-queries set 2
+        queries:
+          - id: query_1
+            query: "@Formal Submission"
+          - id: query_2
+            query: "AND(NOT(@Rejected), NOT(@Obsolete),#cu-gov-001)"

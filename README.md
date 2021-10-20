@@ -4,7 +4,7 @@ Maker Improvement Proposals are the preferred mechanism for improving both Maker
 
 Through an open and documented process, community feedback will be collected to reach the broadest possible consensus on how the MakerDAO should evolve. Furthermore, MIPs provide a mechanism for any community member to define key issues and suggest changes and additions to the system. The MIPs process is conducted with a high level of transparency, rigor, and community input in order to minimize undesirable results. 
 
-For a current and historical view of proposed MIPs, please check out the [MIPs Portal](https://mips.makerdao.com/). In short, the portal should be the go-to resource for anyone wanting to explore MIPs (and the subproposals derived from them) in a reader-friendly manner. The Portal features smart-linking, on-hover previews, predefined common queries (Views), and advanced queries with logical operators and filters.
+For a current and historical view of proposed MIPs, please check out the [MIPs Portal](http://159.203.86.45:8000/). In short, the portal should be the go-to resource for anyone wanting to explore MIPs (and the subproposals derived from them) in a reader-friendly manner. The Portal features smart-linking, on-hover previews, predefined common queries (Views), and advanced queries with logical operators and filters.
 
 # The MIP Framework Overview
 
@@ -18,7 +18,7 @@ MIPs have two types: **technical** if they propose changes or additions to smart
 
 ### Subproposals
 
-Subproposals are a common recurring process. They are created and used as a means of proposing and enacting decisions nested within specific MIPs.
+Subroposals are a common recurring process. They are created and used as a means of proposing and enacting decisions nested within specific MIPs.
 
 Just like MIPs, subproposals are standardized documents subject to voting. Once approved, they trigger a concrete action or state such as onboarding specific collateral, offboarding a Core Unit Facilitator, modifying a budget, and so forth.
 
@@ -60,7 +60,7 @@ After the two above tasks have been completed, MIP Editors will help assign a nu
 
 If all goes well, by the end of the process you will have contributed a piece of MakerDAO legislation. And that's the gist of it! 
 
-For a more detailed breakdown of the procedure, please read [MIP0c3](https://mips.makerdao.com/mips/details/MIP0#mip0c3-the-mip-lifecycle).
+For a more detailed breakdown of the procedure, please read [MIP0c3](http://159.203.86.45:8000/mips/details/MIP0#mip0c3-the-mip-lifecycle).
 
 ## Contact Information 
 
@@ -68,7 +68,7 @@ For a more detailed breakdown of the procedure, please read [MIP0c3](https://mip
 
 Remember that MIP Editors are there to clarify the process and help you. Don't hesitate to reach out if you need assistance!
 
-| MIP Editor | Rocket Chat | GitHub | Forum |
+| MIP Editor | Rocket Chat | Github | Forum |
 |-|-|-|-|
 | **Charles** | [@charlesstlouis](https://chat.makerdao.com/) | [@CPSTL](https://github.com/CPSTL) | [@charlesstlouis](https://forum.makerdao.com/u/charlesstlouis/summary) |
 | **Pablo** | [@blimpa](https://chat.makerdao.com/) | [@blimpa](https://github.com/blimpa) | [@blimpa](https://forum.makerdao.com/u/blimpa/summary) |
@@ -77,4 +77,4 @@ Remember that MIP Editors are there to clarify the process and help you. Don't h
 
 * [MIPs Discussion Channel](https://go.rocket.chat/invite?host=chat.makerdao.com&path=invite%2FNPEuhW)
 * [MakerDAO MIPs Forum](https://forum.makerdao.com/c/mips/14)
-* [MakerDAO MIPs GitHub](https://github.com/makerdao/mips)
+* [MakerDAO MIPs Github](https://github.com/makerdao/mips)
