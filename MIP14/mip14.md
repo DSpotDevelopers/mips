@@ -7,7 +7,7 @@ MIP#: 14
 Title: Protocol DAI Transfer
 Author(s): @LongForWisdom, @jtathmann
 Contributors: N/A
-Tags: process, governance
+Tags: process, governance, living
 Type: Process
 Status: Accepted
 Date Proposed: 2020-05-12
@@ -22,7 +22,7 @@ Replaces: N/A
 
 ## Sentence Summary
 
-MMIP14 defines a generic process for transferring DAI from the Maker Protocol to a target Ethereum address.
+MIP14 defines a generic process for transferring DAI from the Maker Protocol to a target Ethereum address.
 
 ## Paragraph Summary
 

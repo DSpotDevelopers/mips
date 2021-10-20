@@ -6,15 +6,22 @@
 MIP40c3-SP#: 24
 Author(s): @sorenpeter 
 Contributors: @juanjuan
-Tags: dai-foundation, core-unit, daif-001, budget
-Status: RFC
+Tags: dai-foundation, core-unit, cu-daif-001, budget, dai-budget, active
+Status: Accepted
 Date Applied: 2021-07-07
-Date Ratified: YYYY-MM-DD
+Date Ratified: 2021-08-23
 ```
 
 ## Sentence Summary
 
 MIP40c3-SP24 adds the budget for Core Unit DAIF-001: Dai Foundation Core Unit.
+
+## Paragraph Summary
+
+This proposal contains a three year budget for the DAIF CU with requested funding and payment implementation.
+* The first year the requested funding is 2,554,358 DAI which includes 2 Million DAI for reserves buildup
+* The second year it is  1,463,186 DAI including 1 Million DAI for reserves buildup meaning the operational expenses are reduced by 16% compared to year 1. 
+* The third year the requested funding is 463,186 DAI solely for operational expenses and that is a reduction of 20% compared to the budgeted operational expenses in year 1.
 
 ## Motivation
 
@@ -161,7 +168,7 @@ Examples of events for which Dai Foundation may need access to reserves to conti
 
 - Regulatory or other action which means the contributions from the Protocol to cover daily operations are cut off for a period that may last up to three years
 - A lawsuit like the one that was seen after the “Black Thursday” event in 2020 where Dai Foundation will be the main or rather the only centralized entity to target. Defending against lawsuits can be very expensive - an estimate of legal cost of $1M in connection with a big US lawsuit is not unrealistic.
-- Events where Directors and Officer Insurance is required - e.g. a lawsuit where board members are sued individually. It is very expensive for Dai Foundation to acquire a Directors and Officers insurance, so as a backup there should be sufficient reserves for Dai Foundation to provide the same cover for its board members as is available to board members in similar foundations, e.g. a coverage up to $2M.
+- Events where Directors and Officer Insurance is required - e.g., a lawsuit where board members are sued individually. It is very expensive for Dai Foundation to acquire a Directors and Officers insurance, so as a backup there should be sufficient reserves for Dai Foundation to provide the same cover for its board members as is available to board members in similar foundations, e.g., a coverage up to $2M.
 
 Based on the above, Dai Foundation should aim to build up reserves of at least $3M where it is proposed that the protocol donates $2M to reserves the first year and $1M the following year.
 
@@ -171,7 +178,7 @@ A Danish foundation has favourable tax conditions while being legally required t
 
 #### How will donations that Dai Foundation receives from third parties be allocated?
 
-To the degree the Dai Foundation receives donations (e.g. in the form of crypto sent to the Dai Foundation wallet) they will be allocated to one or more of the following three categories:
+To the degree the Dai Foundation receives donations (e.g., in the form of crypto sent to the Dai Foundation wallet) they will be allocated to one or more of the following three categories:
 
 - Funding more charitable donations from Dai Foundation
 - Further building up of the reserves
@@ -179,7 +186,73 @@ To the degree the Dai Foundation receives donations (e.g. in the form of crypto 
 
 ## Payment Implementation
 
-To be defined.
+### Simple Implementation
+
+The DAIF Core Unit has opted for a simple implementation aiming to keep governance's overhead to a minimum. It does not require any particular implementation to work properly and the team is quite flexible to upgrade this simple implementation into a better suited method, as suggested by Governance.
+
+#### The Main Characteristics:
+- The Reserves Buildup transfers are done in time to support any potential litigation costs.
+- The first payment for the first month also includes the payment for the second and third.
+- The second payment corresponds to the 4th month, and so on.
+
+
+### Dai transfers, monthly breakdown
+
+| Yearly         | Month | Operations     | Reserves Buildup | Total to Transfer |
+| -------: | ----: | ---------: | ---------------: | -----------------: |
+| 554,358  DAI | 1     | 138,591  DAI | 2,000,000  DAI     | 2,138,591  DAI      |
+|            | 2     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 3     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 4     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 5     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 6     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 7     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 8     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 9     | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 10    | 46,197  DAI  |                  | 46,197  DAI         |
+|            | 11    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 12    | 38,599  DAI  |                  | 38,599  DAI         |
+| 463,186  DAI | 13    | 38,599  DAI  | 1,000,000  DAI     | 1,038,599  DAI      |
+|            | 14    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 15    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 16    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 17    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 18    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 19    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 20    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 21    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 22    | 38,599  DAI  |                  | 38,599  DAI         |
+|            | 23    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 24    | 37,108  DAI  |                  | 37,108  DAI         |
+| 445,301  DAI | 25    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 26    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 27    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 28    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 29    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 30    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 31    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 32    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 33    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 34    | 37,108  DAI  |                  | 37,108  DAI         |
+|            | 35    | 0  DAI       |                  | 0  DAI              |
+|            | 36    | 0  DAI       |                  | 0  DAI              |
+
+
+![Simple Budget Implementation](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/supporting_materials/MIP40c3-SP24/simple_budget_implementation.png)
+
+
+### Wallets
+
+#### Operational Wallet
+
+`0x34D8d61050Ef9D2B48Ab00e6dc8A8CA6581c5d63`
+
+#### Reserves Buildup Wallet
+
+`0x5F5c328732c9E52DfCb81067b8bA56459b33921f`
+
+
+---
 
 ## Related Documents
 

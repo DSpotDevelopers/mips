@@ -6,7 +6,7 @@ MIP#: 39
 Title: Core Unit Framework
 Author(s): @juanjuan
 Contributors: @elprogreso, @iammeeoh
-Tags: process, core-unit-framework, mip-set, mip-set, core-unit-mipset
+Tags: process, core-unit-framework, mip-set, core-unit-framework-mipset
 Type: Process
 Status: Accepted
 Date Proposed: 2021-01-18
@@ -15,9 +15,8 @@ Dependencies: MIP38, MIP40, MIP41, MIP4c2-SP10, MIP4c2-SP12
 Replaces: n/a
 ```
 ## References
-MIP39c2-SP-Template
-MIP39c3-SP-Template
-MIP39c4-SP-Template
+[MIP39c2-Subproposal-Template.md](https://github.com/makerdao/mips/blob/master/MIP39/MIP39c2-Subproposal-Template.md)
+[MIP39c3-Subproposal-Template.md](https://github.com/makerdao/mips/blob/master/MIP39/MIP39c3-Subproposal-Template.md)
 
 ## Sentence Summary
 
@@ -32,14 +31,11 @@ MIP39: Core Unit Framework contains a framework for managing Core Units and modi
 **MIP39c1: Core Units**
 Gives an overview of the most important characteristics of Core Units.
 
-**MIP39c2: Adding Core Units (Subproposal Process)**
-The process for adding new Core Units to the DAO primitives State.
+**MIP39c2:Adding/Modifying Core Units (Subproposal Process)**
+The process for adding new Core Units to the DAO primitives State or modifying already existing ones.
 
-**MIP39c3: Modifying Core Units (Subproposal Process)**
-The process for modifying Core Units in the DAO primitives State.
-
-**MIP39c4: Removing Core Units (Subproposal Process)**
-The process for removing Core Units from the DAO primitives State.
+**MIP39c3:  Removing Core Units (Subproposal Process)**
+The process for removing Core Units in the DAO primitives State.
 
 ## Motivation
 
@@ -73,7 +69,7 @@ Mandates from different Core Units can overlap to create redundancy and parallel
 
 Core Objectives and Domains are not directly defined in the DAO Primitives MIP Set but are flexible concepts that emerge through the interaction of DAO Primitives.
 
-Core Units are at the intersection of Domains (which denote skillsets and capabilities) and Objectives (which denote cross-domain long term workstreams.)
+Core Units are at the intersection of Domains (which denote skill sets and capabilities) and Objectives (which denote cross-domain long term workstreams.)
 
 A Core Unit can participate in multiple objectives and can fall under one or more domains.
 
@@ -84,7 +80,7 @@ A Core Unit can participate in multiple objectives and can fall under one or mor
 This subproposal process allows Governance to create or modify an existing Core Unit by setting its Mandate and/or its name.
 
 > Care should be taken so that names and Mandates don't end up drifting apart from each other.
-    
+
 Once a subproposal is approved, the Governance Facilitator or the MIP Editor modifies the DAO Primitives State (MIP38) to append a new entry with the Core Unit specified in the subproposal. The Operational Support Core Unit, or the MIP Editor or Governance Facilitator, will also assign a Core Unit ID (e.g.: `GOV1`) to uniquely identify the given Core Unit.
 
 The proposal parameters are:

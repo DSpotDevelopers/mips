@@ -7,7 +7,7 @@ MIP#: 37
 Title: Static Reserve For Governance
 Author(s):  Alexis
 Type: Technical
-Status: RFC
+Status: Withdrawn
 Date Proposed: 2021-01-15
 Dependencies: None
 Replaces: Nothing
@@ -21,7 +21,7 @@ MIP37 defines a static reserve which can receive any tokens from anyone *as any 
 Following the [MIP Discussion](https://forum.makerdao.com/t/mip34-keg-streaming-payments-module/6013/6) and the long time on-going discussion about having a reserve, 
 this MIP formalises the need for the governance to have a proper reserve to store Dai or any tokens.
 
-Currently, makerDao doesn't have any contract where tokens can be stored/sent/withdrew. This MIP will try to fix it.
+Currently, MakerDAO doesn't have any contract where tokens can be stored/sent/withdrew. This MIP will try to fix it.
 
 This simple contract will allow governance to receive tokens/fees/payment from other parties or side component such as PSM, vow etc ... 
 
@@ -30,31 +30,31 @@ This contract gives to the governance the only functionality to withdraw tokens 
 
 ## Component Summary
 
-**MIP37a1: Parameter Definitions**
+**MIP37c1: Parameter Definitions**
 
-**MIP37a2: Function**
+**MIP37c2: Function**
 
-**MIP37a3: Authorisation**
+**MIP37c3: Authorisation**
 
-**MIP37a4: Static Reserve For Governance**
+**MIP37c4: Static Reserve For Governance**
 
-**MIP37a5: Proposed Code**
+**MIP37c5: Proposed Code**
 
-**MIP37a6: Test Cases**
+**MIP37c6: Test Cases**
 
-**MIP37a7: Spell**
+**MIP37c7: Spell**
 
-**MIP37a8: Security Considerations**   
+**MIP37c8: Security Considerations**   
 
-**MIP37a9: Licensing**  
+**MIP37c9: Licensing**  
 
 ## Motivation
-As simple as it is, currently makerDao doesn't have any place where tokens can be stored/sent/withdrew. As we move towards to the governance 
+As simple as it is, currently MakerDAO doesn't have any place where tokens can be stored/sent/withdrew. As we move towards to the governance 
 independence we need to have the ability to have some founding visibility. This founding must be independent of an eventual protocol issue which could bring the governance without the ability to either mint MKR or withdraw from the `wov` due to a negative Surplus Buffer.  
 
 I would define this reserve as the current account. 
  
-Also the Dao protocol cannot receive any tokens without passing via a debt position which is sent to the `vow`. 
+Also the DAO protocol cannot receive any tokens without passing via a debt position which is sent to the `vow`. 
 It is how the PSM is currently sending fees, but by doing that we are also degrading the value of the fees as it goes to the future income from the repayment of the debt. 
 In another word if the Surplus Buffer is in negative position PSM fees or other types of income stream are assimilated to the Vaults interest fees. 
 And fees from vaults are future income we only recover when all debts are paid which is never the case, they are **future income**.

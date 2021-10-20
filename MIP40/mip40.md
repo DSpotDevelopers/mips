@@ -6,7 +6,7 @@ MIP#: 40
 Title: Budget Framework
 Author(s): @juanjuan
 Contributors: @elprogreso, @iammeeoh
-Tags: process, core-unit-framework, mip-set, mip-set, core-unit-mipset
+Tags: process, core-unit-framework, mip-set, core-unit-framework-mipset
 Type: Process
 Status: Accepted
 Date Proposed: 2021-01-18
@@ -17,7 +17,7 @@ Replaces: n/a
 
 ## References
 
-MIP40c3-SP-Template
+[MIP40c3-Subproposal-Template.md](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposal-Template.md)
 
 ## Sentence Summary
 

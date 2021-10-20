@@ -6,7 +6,7 @@
 MIP40c3-SP#: 10
 Author(s): @wouter, @juanjuan
 Contributors:
-Tags: core-unit, cu-ses-001, budget, active
+Tags: core-unit, cu-ses-001, budget, dai-budget
 Status: Accepted
 Date Applied: 2021-04-07
 Date Ratified: 2021-05-25
@@ -149,7 +149,7 @@ The budget is split up in three separate categories: `Permanent Team`, `Grants P
 Within the first 5 days of each month, SES will submit a `Monthly Budget Statement` to the signers of the Auditors Wallet with the following sections:
 
 1. **The Budget Forecast**, based on the latest available information, of the budget (in DAI) that is required to maintain a 3 month runway for the team.
-2. **The Last Month Actuals**, i.e. the actual expenses (DAI and MKR) of the month that just ended.
+2. **The Last Month Actuals**, i.e., the actual expenses (DAI and MKR) of the month that just ended.
 3. **The MKR Vesting Overview** -- this is a schedule that has the expected MKR vesting amounts for the current team configuration, grouped by the pay-out month.
 4. **The Transaction Amounts**
     * The required DAI amount for each Operational Wallet to replenish the 3 month runway

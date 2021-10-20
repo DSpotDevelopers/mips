@@ -1,4 +1,4 @@
-# MIP39c2-SP17: adds Core Unit DAIF-001: Dai Foundation
+# MIP39c2-SP17: Adds Dai Foundation Core Unit, DAIF-001
 
 ## Preamble
 
@@ -6,10 +6,10 @@
 MIP39c2-SP#: 17
 Author(s): @sorenpeter
 Contributors: @juanjuan
-Tags: dai-foundation, core-unit, daif-001, mandate
-Status: RFC
+Tags: dai-foundation, core-unit, cu-daif-001, mandate, active
+Status: Accepted
 Date Applied: 2021-07-07
-Date Ratified: <yyyy-mm-dd>
+Date Ratified: 2021-08-23
 ```
 
 ## Sentence Summary
@@ -62,9 +62,9 @@ The Dai Foundation Core Unit will carry these responsibilities following the pri
 
 - Creating a process together with Maker Governance for making intellectual property held by the Dai Foundation available for use by the Community - [See the proposal for discussion here](LINKMISSING-LINKMISSING-LINKMISSING-LINKMISSING-LINKMISSING-LINKMISSING-LINKMISSING-LINKMISSING-LINKMISSING).
 - Finding owners for [the assets from the Maker Foundation that the Dai Foundation has accepted for temporary care-taking](https://forum.makerdao.com/t/maker-foundation-transfer-of-additional-assets-to-dai-foundation-next-steps/8478).
-- Creating a process with Maker Governance for giving copyright/intellectual property ownership to the Dai Foundation for assets added to the protocol (e.g. the copyright for the code contained in a new smart contract).
+- Creating a process with Maker Governance for giving copyright/intellectual property ownership to the Dai Foundation for assets added to the protocol (e.g., the copyright for the code contained in a new smart contract).
 - Creating a process with Maker Governance for appointing community board members.
-- Defining a backlog for missing processes (e.g. how a Contributor or a Core Unit can transfer an asset to the Dai Foundation)
+- Defining a backlog for missing processes (e.g., how a Contributor or a Core Unit can transfer an asset to the Dai Foundation)
 
 #### Connection with the Dai Foundation
 

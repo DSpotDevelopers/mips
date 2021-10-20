@@ -6,7 +6,7 @@ MIP#: 41
 Title: Facilitator Framework
 Author(s): @juanjuan
 Contributors: @elprogreso, @iammeeoh
-Tags: process, core-unit-framework, personnel-xboarding, mip-set, core-unit-mipset
+Tags: process, core-unit-framework, personnel-xboarding, mip-set, core-unit-framework-mipset
 Type: Process
 Status: Accepted
 Date Proposed: 2021-01-18
@@ -17,8 +17,8 @@ Replaces: n/a
 
 ## References
 
-MIP41c4-SP-Template
-MIP41c5-SP-Template
+[MIP41c4-Subproposal-Template.md](https://github.com/makerdao/mips/blob/master/MIP41/MIP41c4-Subproposal-Template.md)
+[MIP41c5-Subproposal-Template.md](https://github.com/makerdao/mips/blob/master/MIP41/MIP41c5-Subproposal-Template.md)
 
 ## Sentence Summary
 

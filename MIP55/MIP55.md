@@ -7,7 +7,7 @@ MIP#: 55
 Title: Special Purpose Fund
 Author(s): @amyjung
 Contributors: @LongForWisdom @SebVentures
-Tags:
+Tags: process
 Type: General
 Status: Accepted
 Date Proposed: 2021-06-08
@@ -41,7 +41,7 @@ This subproposal process allows Governance to create or modify an existing Speci
 
 ## Motivation
 
-The creation of the Core Unit Framework launched the initial building blocks for organizing work for the DAO. Facilitators define mandates that cover *long-term work areas* and a *broad* set of focus and responsibilities for the protocol to be secure and successful.([1](https://forum.makerdao.com/t/mip39-core-unit-framework/6096))
+The creation of the Core Unit Framework launched the initial building blocks for organizing work for the DAO. Facilitators define mandates that cover *long-term work areas* and a *broad* set of focus and responsibilities for the protocol to be secure and successful.([1](https://github.com/makerdao/mips/blob/master/MIP39/mip39.md))
 
 Since then, community members have uncovered a need for a framework that is particular to purposes:
 
@@ -85,7 +85,7 @@ A process component that provides clarity on how the payouts are addressed from 
 
 The process is as follows:
 
-1. MIP55c3 subproposals is submitted. MIP55c3 subproposals must use the template located at **[MIP55c3-Subproposal-Template.md](link)** . This template is considered ratified once this MIP moves to Accepted status.
+1. MIP55c3 subproposals is submitted. MIP55c3 subproposals must use the template located at **[MIP55c3-Subproposal-Template.md](https://github.com/makerdao/mips/blob/master/MIP55/MIP55c3-Subproposal-Template.md)**. This template is considered ratified once this MIP moves to Accepted status.
 
 2. MIP55c3 subproposals must go through the Governance cycle to authorize Maker Governance to draw funds from the Protocol.
 
@@ -114,7 +114,7 @@ The initial funding implementation would use a simple funding implementation of 
 
 ### MIP55c3: Adding/Modifying a Special Purpose Fund
 
-MIP55c3 subproposals must use the template located at **[MIP55c3-Subproposal-Template.md](link)** .
+MIP55c3 subproposals must use the template located at **[MIP55c3-Subproposal-Template.md](https://github.com/makerdao/mips/blob/master/MIP55/MIP55c3-Subproposal-Template.md)** .
 
 This is a component that can have on-chain effects that alter the Maker Protocol's state. When subproposals are generated from this component, the vote must include a technical state change to authorize drawing funds from the Maker Protocol.
 
