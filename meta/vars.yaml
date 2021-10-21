@@ -1,5 +1,7 @@
-strings:
+strings: 
   learn: Learn
+  mips_portal: The MIPs Portal
+  technical: Technical
   portaldoc: The MIPs Portal
   primer: Primer for Authors
   mip0: The MIPs Frameworkd
@@ -18,27 +20,14 @@ strings:
   spsinforce: Subproposals in Force
   archive: Archive
   living: Living MIPs
-  technical: Technical
   implemented: Implemented
   pending: Pending Implementation
   process: Processes
   contact: Get in Touch
   forum: Forum
   chat: Chat
-reserved:
-  Preamble: Preamble
-  "MIP#": "MIP#"
-  Title: Title
-  Author(s): Author(s)
-  Contributors: Contributors
-  Type: Type
-  Status: Status
-  Date Proposed: Date Proposed
-  Date Ratified: Date Ratified
-  Last Amended: Last Amended
-  Dependencies: Dependencies
-  Replaces: Replaces
-  References: References
+  
+reserved: 
   Sentence Summary: Sentence Summary
   Paragraph Summary: Paragraph Summary
   Component Summary: Component Summary
