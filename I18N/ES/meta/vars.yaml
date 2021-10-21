@@ -2,6 +2,30 @@ strings:
   learn: Aprender
   mips_portal: El Portal de MIPs
   technical: Técnica
+  portaldoc: El Portal de MIP
+  primer: Intro para Autores
+  mip0: El Framework de MIP
+  mip51: Ciclo de Gobernanza Mensual
+  views: Vistas
+  status: Estado
+  rfc: RFC
+  fs: Formal Submission
+  accepted: Aceptada
+  obsolete: Obsoleta
+  rejected: Rechazada
+  withdrawn: Retirada
+  coreunits: Core Units
+  allcus: Todas (MIP38c2)
+  activebudgets: Presupuestos Activos
+  spsinforce: Subpropuestas en Vigor
+  archive: Archivo
+  living: Propuestas Registrales
+  implemented: Implementadas
+  pending: Pendientes de Implementación
+  process: Procesos
+  contact: Ponte en Contacto
+  forum: Foro
+  chat: Chat
 
 reserved: 
   Sentence Summary: Resumen
