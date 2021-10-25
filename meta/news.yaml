@@ -1,0 +1,15 @@
+---
+data:
+  - title: $title1
+    description: $description1
+    type: GREEN
+    link: http://159.203.86.45:8000/mips/details/MIP1
+  - title: $title2
+    description: $description2
+    type: YELLOW
+    link: http://159.203.86.45:8000/mips/details/MIP3
+  - title: $title3
+    description: $description3
+    type: RED
+    link: http://159.203.86.45:8000/mips/details/MIP4
+    

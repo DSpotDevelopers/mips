@@ -7,3 +7,11 @@ reserved:
   Sentence Summary: Resumen
   Paragraph Summary: Descripción
   Component Summary: Índice
+
+news: 
+  title1: titulo uno
+  description1: descripcion uno
+  title2: titulo dos
+  description2: descripcion dos
+  title3: titulo tres
+  description3: descripcion tres
