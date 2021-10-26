@@ -42,3 +42,10 @@ reserved:
   Sentence Summary: Resumen Corto
   Paragraph Summary: Resumen Largo
   Component Summary: Índice de Componentes
+news: 
+  title1: titulo uno
+  description1: descripcion uno
+  title2: titulo dos
+  description2: descripcion dos
+  title3: titulo tres
+  description3: descripcion tres
