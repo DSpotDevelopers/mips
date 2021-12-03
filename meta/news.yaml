@@ -1,7 +1,7 @@
 ---
 data:
   - id: ITEM-1
-    title: $10 seconds
+    title: $10seconds
     description: $There were added two MIPs.
     timelock: 10 seconds
     type: GREEN
