@@ -1,15 +1,15 @@
 ---
 data:
   - id: ITEM-1
-    title: $title1
+    title: $1
     description: $description1
-    timelock: 30 seconds
+    timelock: 10 seconds
     type: GREEN
     link: http://159.203.86.45:8000/mips/details/MIP1
   - id: ITEM-2
     title: $title2
     description: $description2
-    timelock: 2 years
+    timelock: 30 seconds
     type: YELLOW
     link: http://159.203.86.45:8000/mips/details/MIP3
   - id: ITEM-3
