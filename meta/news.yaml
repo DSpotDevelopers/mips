@@ -1,8 +1,8 @@
 ---
 data:
   - id: ITEM-1
-    title: $title1
-    description: $description1
+    title: Klaudia va a revisar esto
+    description: Lorem Ipsume ettetetetetedgbw dh i dgahs d
     timelock: 1 minute
     type: GREEN
     link: http://159.203.86.45:8000/mips/details/MIP1
