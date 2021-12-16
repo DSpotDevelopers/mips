@@ -28,7 +28,7 @@ strings:
 reserved:
   Preamble: Preámbulo
   'MIP#': 'MIP#'
-  Title: Título
+  Título: Título
   Author(s): Autor(es)
   Contributors: Colaboradores
   Type: Tipo
@@ -42,3 +42,10 @@ reserved:
   Sentence Summary: Resumen Corto
   Paragraph Summary: Resumen Largo
   Component Summary: Índice de Componentes
+news: 
+  title1: Título uno
+  description1: Descripción uno
+  title2: Título dos
+  description2: Descripción dos
+  title3: Título tres
+  description3: Descripción tres
