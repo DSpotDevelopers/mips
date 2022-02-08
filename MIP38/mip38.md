@@ -69,20 +69,19 @@ This dataset is updated by the MIP Editors when a subproposal from MIP39, MIP40,
 >
 > ##### Mandate
 >
-> -  [MIP39c2-SPX] (link)
+> -  [MIP39c2-SPX](link)
 >
 > ##### Budget
 >
-> - **Active Budget** - [MIP40c3-SPX]\(link)
->     - **Ratification Date** - [yyyy-dd-mm]
+> - **Active Budget** - [MIP40c3-SPX](link)
 >     - **Budget Amount** - xxx,xxx DAI / year
->     - **Budget Implementation** - Manual/Simple/Advanced - [MIP40c2-SPX] (link)
->     - **Budget Breakdown** - [MIP40c2-SPX](example.com/budget_implementation)
+>     - **Budget Implementation** - Manual/Simple/Advanced - [MIP40c3-SPX](link)
+>     - **Budget Breakdown** - [MIP40c3-SPX internal anchor link](example.com/budget_implementation)
 >
 > ##### Facilitator
 >
-> - Awes M. Example - [MIP41c2-SPX] (link)
-> - Gre T. Example - [MIP41c2-SPY] (link)
+> - Awes M. Example - [MIP41c4-SPX](link)
+> - Gre T. Example - [MIP41c4-SPY](link)
 
 ---
 
@@ -208,29 +207,6 @@ This dataset is updated by the MIP Editors when a subproposal from MIP39, MIP40,
 
 ---
 
-#### Content Production (MKT-001)
-
-- **Summary** - The Content Production Core Unit is responsible for creating, and supporting the creation of written, audio, and visual content that educates audiences on MakerDAO, promotes the work and culture of the ecosystem, and encourages people to use Dai and the Maker Protocol.
-- **Ratification Date for the Initial Proposal Set** - 2021-27-04
-
-##### Mandate
-
-- [MIP39c2-SP5](https://mips.makerdao.com/mips/details/MIP39c2SP5)
-
-##### Budget
-
-- **Active Budget** - [MIP40c3-SP33](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP33.md)
-    - **Ratification Date** - 2021-22-11
-    - **Budget Amount** - A total of 424,944 Dai DAI will be streamed starting 2021-12-01 and ending 2022-04-30
-    - **Budget Implementation** - Simple via dssvest
-    - **Budget Breakdown** - [MIP40c3-SP33 internal anchor link](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP33.md#budget-breakdown)
-
-##### Facilitator
-
-- Seth Goldfarb - [MIP41c4-SP5](https://mips.makerdao.com/mips/details/MIP41c4SP5)
-
----
-
 #### MakerDAO Shop (MDS-001)
 
 - **Summary** - The MakerDAO Shop Core Unit helps build brand awareness and goodwill for MakerDAO and Dai by offering branded items (Swag, NFTs, etc) via the official MakerDAO store
@@ -279,7 +255,7 @@ This dataset is updated by the MIP Editors when a subproposal from MIP39, MIP40,
 
 #### Oracles (ORA-001)
 
-- **Summary** - The Oracle Core Unit is responsible for developing and administrating the Oracle Protocol. Oracles are a critical component of securing the Maker Protocol to ensure positions are sufficiently collateralized. 
+- **Summary** - The Oracle Core Unit is responsible for developing and administrating the Oracle Protocol. Oracles are a critical component of securing the Maker Protocol to ensure positions are sufficiently collateralized.
 - **Ratification Date for the Initial Proposal Set** - 2021-28-06
 
 ##### Mandate
@@ -303,7 +279,7 @@ This dataset is updated by the MIP Editors when a subproposal from MIP39, MIP40,
 
 #### Governance Communications (COM-001)
 
-- **Summary** - The Governance Communications Core Unit performs a complementary set of resources and services that focus on MakerDAO's informational accessibility and communication practices as a public organization. 
+- **Summary** - The Governance Communications Core Unit performs a complementary set of resources and services that focus on MakerDAO's informational accessibility and communication practices as a public organization.
 - **Ratification Date for the Initial Proposal Set** - 2021-26-07
 
 ##### Mandate
@@ -460,7 +436,7 @@ This dataset is updated by the MIP Editors when a subproposal from MIP39, MIP40,
 
 ##### Budget
 
-- **Active Budget** - [MIP40c3-SP34](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP34.md) 
+- **Active Budget** - [MIP40c3-SP34](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP34.md)
     - **Ratification Date** - 2021-09-07
     - **Budget Amount**
         - 107,500 DAI transferred on November 10, 2020
@@ -490,7 +466,7 @@ This dataset is updated by the MIP Editors when a subproposal from MIP39, MIP40,
     - **Budget Amount**
         - Initial seed transfer of 465,625 Dai
         - 155,208.33 Dai/month streamed continuously
-    - **Budget Implementation** - 
+    - **Budget Implementation** -
     - **Budget Breakdown** - [MIP40c3-SP35 internal anchor link](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP35.md#budget-breakdown)
 - **MKR Vesting** - [MIP40c3-SP36](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP36.md)
 
@@ -544,3 +520,72 @@ This dataset is updated by the MIP Editors when a subproposal from MIP39, MIP40,
 ##### Facilitator
 
 - Daniel Kremerov - [MIP41c4-SP26](https://github.com/makerdao/mips/blob/master/MIP41/MIP41c4-Subproposals/MIP41c4-SP26.md)
+
+#### Strategic Finance (SF-001)
+
+- **Summary** - Strategic Finance Core Unit's mission is to provide financial reporting and analysis to assist the DAO in evaluating the financial health of the protocol to enable strategic decision making and allocate capital more effectively.
+- **Ratification Date for the Initial Proposal Set** - 2022-24-01
+
+##### Mandate
+
+- [MIP39c2-SP27](https://github.com/makerdao/mips/blob/master/MIP39/MIP39c2-Subproposals/MIP39c2-SP27.md)
+
+##### Budget
+
+- **Active Budget** - [MIP40c3-SP46](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP46.md)
+      - **Budget Amount** - A total of 494,502 Dai will be streamed to 0xf737C76D2B358619f7ef696cf3F94548fEcec379 (SF Core Unit Multisig) starting 02/01/22 and ending 07/31/22 at a rate of 82,417 Dai per month.
+      - **Budget Implementation** - Simple via dssvest - [MIP40c3SP46 internal anchor link](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP46.md#budget-implementation)
+      - **Budget Breakdown** - [MIP40c3-SP46 internal anchor link](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP46.md#budget-breakdown)
+
+##### Facilitator
+
+- Mark Phillips (@Aes) - [MIP41c4-SP28](https://github.com/makerdao/mips/blob/master/MIP41/MIP41c4-Subproposals/MIP41c4-SP28.md)
+
+#### TechOps (TECH-001)
+
+- **Summary** - TechOps Core Unit mission is to handle the system administration and technical support needs of the Maker Protocol and its Core Units.
+- **Ratification Date for the Initial Proposal Set** - 2022-24-01
+
+##### Mandate
+
+- [MIP39c2-SP29](https://github.com/makerdao/mips/blob/master/MIP39/MIP39c2-Subproposals/MIP39c2-SP29.md)
+
+##### Budget
+
+- **Active Budget** - [MIP40c3-SP53](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP53.md)
+      - **Budget Amount** - 2,246,400 DAI / year
+      - **Budget Implementation** - Simple via dssvest - [MIP40c3SP53 internal anchor link](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP53.md#budget-implementation)
+      - **Budget Breakdown** - [MIP40c3-SP53 internal anchor link](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP53.md#budget-breakdown)
+
+##### Facilitator
+
+- Dumitru Zavrotschi (@dumitru) - [MIP41c4-SP30](https://github.com/makerdao/mips/blob/master/MIP41/MIP41c4-Subproposals/MIP41c4-SP30.md)
+- Simon Kelada-Polupanov (@simonkp) - [MIP41c3-SP31](https://github.com/makerdao/mips/blob/master/MIP41/MIP41c4-Subproposals/MIP41c4-SP31.md)
+
+---
+
+### Offboarded Core Units:
+
+
+#### Content Production (MKT-001)
+
+- **Summary** - The Content Production Core Unit is responsible for creating, and supporting the creation of written, audio, and visual content that educates audiences on MakerDAO, promotes the work and culture of the ecosystem, and encourages people to use Dai and the Maker Protocol.
+- **Ratification Date for the Initial Proposal Set** - 2021-27-04
+
+##### Mandate
+
+- [MIP39c2-SP5](https://mips.makerdao.com/mips/details/MIP39c2SP5)
+
+##### Budget
+
+- **Active Budget** - [MIP40c3-SP33](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP33.md)
+    - **Ratification Date** - 2021-22-11
+    - **Budget Amount** - A total of 424,944 Dai DAI will be streamed starting 2021-12-01 and ending 2022-04-30
+    - **Budget Implementation** - Simple via dssvest
+    - **Budget Breakdown** - [MIP40c3-SP33 internal anchor link](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/MIP40c3-SP33.md#budget-breakdown)
+
+##### Facilitator
+
+- Seth Goldfarb - [MIP41c4-SP5](https://mips.makerdao.com/mips/details/MIP41c4SP5)
+
+---

@@ -6,10 +6,12 @@
 MIP40c3-SP#: 55
 Author(s): @wouter, @juanjuan
 Contributors: @Retro
-Tags: core-unit, cu-ses-001, budget, dai-budget, 
-Status: RFC
+Tags: core-unit, cu-ses-001, budget, dai-budget, active 
+Status: Accepted
 Date Applied: 2021-12-08
-Date Ratified: yyyy-mm-dd
+Date Ratified: 2022-01-24
+Forum URL: https://forum.makerdao.com/t/mip40c3-sp55-modify-core-unit-budget-sustainable-ecosystem-scaling-ses-001/12097
+Ratification Poll URL: https://vote.makerdao.com/polling/QmQrVVgi
 ```
 
 ## Sentence Summary
@@ -136,7 +138,7 @@ The proposed budget comprises three parts:
 
    A big part of the Incubator Program's value lies in this ability to allocate budgets without waiting for governance approval quickly. This is to avoid a situation where promising teams have to wait in great uncertainty, typically 3 months or longer, before potentially receiving the first DAO payment for their Core Unit. This is seen as a requirement that is an unreasonable barrier to entry for new teams joining the ecosystem.
 
-![3 months no support](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/supporting_materials/incubation-program.png)
+![3 months no support](https://github.com/makerdao/mips/blob/master/MIP40/MIP40c3-Subproposals/supporting_materials/MIP40c3-SP55/incubator-program.png)
 
 3. **Grants Program Budget** -- The Grants Program Budget is a similar budget based on prior experience with the Governance Communications' grants program that has now been sunset.
 

@@ -9,13 +9,14 @@ Author(s): Sam MacPherson (@hexonaut)
 Contributors: None
 Type: Technical
 Tags: technical, process, liquidations
-Status: RFC
+Status: Accepted
 Date Proposed: 2021-12-08
-Date Ratified: n/a
+Date Ratified: 2022-01-24
 Dependencies: n/a
 Replaces: n/a
 License: AGPL3+
 Forum URL: https://forum.makerdao.com/t/mip63-maker-keeper-network
+Ratification Poll URL: https://vote.makerdao.com/polling/QmQqFpjv
 ```
 
 ## References

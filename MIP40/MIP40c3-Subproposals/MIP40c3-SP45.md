@@ -6,11 +6,12 @@
 MIP40c3-SP#: 45
 Author(s): Niklas Kunkel (@NiklasKunkel)
 Contributors:
-Tags: core-unit, cu-ora-001, budget
-Status: RFC
+Tags: core-unit, cu-ora-001, budget, active
+Status: Accepted
 Date Applied: 2021-11-09
-Date Ratified: n/a
+Date Ratified: 2022-01-24
 Forum URL:https://forum.makerdao.com/t/mip40c3-sp45-modify-core-unit-budget-ora-001-oracle-gas-costs/
+Ratification Poll URL: https://vote.makerdao.com/polling/QmRT9363
 ```
 
 ## Sentence Summary
@@ -370,8 +371,10 @@ Funds will be split up into two multi-sig wallets that are separate from the Ora
 
 **Multisig #1 = Oracle Gas Costs**
 
+Multisig address = 0x2B6180b413511ce6e3DA967Ec503b2Cc19B78Db6
+
 ```
-Signers = 5
+Signers = 6
 Quorum = 3
 
 Signers:
@@ -381,8 +384,11 @@ Nik - Oracle Core Unit Faciliator - @NikKunkel
 Marc-Andre - OCU Engineering Team Lead - @marcandu
 0xf63EfEE2A663b04cB5a09De6E3EB910d8442131D
 
-George - Tech-Ops Core Unit -
-TBD
+Simon - Tech-Ops Core Unit Co-Facilitator - @simonkp
+0xA60C77efe539166F1C4a6cE2512F3cBF451fFbc5
+
+Dumitru Zavrotschi - Tech-Ops Core Unit Co-Facilitator - @dumitru
+0xcebd4Fa8c2c6014F2F7924De3Ae617BdD42ca25B
 
 Primoz - Risk Core Unit Facilitator - @doopson 
 0x5d67d5B1fC7EF4bfF31967bE2D2d7b9323c1521c
@@ -392,6 +398,8 @@ PunchIt Inc. - Protocol Engineering Core Contributor - @cmooney
 ```
 
 **Multisig #2 = Oracle Emergency Fund**
+
+Multisig Address = 0x1A5B692029b157df517b7d21a32c8490b8692b0f
 
 ```
 Signers = 3
@@ -404,8 +412,8 @@ Nik - Oracle Core Unit Faciliator - @NikKunkel
 Marc-Andre - OCU Engineering Team Lead - @marcandu
 0xf63EfEE2A663b04cB5a09De6E3EB910d8442131D
 
-George - Tech-Ops Core Unit -
-TBD
+Simon - Tech-Ops Core Unit - 
+0xA60C77efe539166F1C4a6cE2512F3cBF451fFbc5
 ```
 
 The emergency multi-sig has a lower signing threshold than the general multi-sig because of the need to ensure that in an emergency funds are available to fuel the Oracles. Unlike people which can convinced with rhetoric that their paychecks will be late, Oracles are smart-contract which are much more resolute. You either pay them, and they do what you want, or you don't pay them and they will do nothing. Therefore, it's imperative that the emergency fund is easy to access and not susceptible to uncommon but high impact scenarios such as "multiple signers: on a plane, asleep, off-the-grid, generally unreachable, bus-factor, etc."
@@ -420,6 +428,10 @@ Unlike core unit operational funds, which are streamed continuously, Oracle gas 
 
 1. The Maker Foundation refund needs to be paid in full so the Foundation can close its books as part of its winddown.
 2. Gas costs are hyper volatitle, meaning Oracles expense outflows can happen in bursts many times the size of a typical day. Gas costs on short-time intervals are therefore not predictable and only average over long time intervals.
+
+Upon ratification of this subproposal 6,966,069.84 DAI will be transferred to 0x2B6180b413511ce6e3DA967Ec503b2Cc19B78Db6 on 2021-01-28
+
+Upon ratification of this subproposal 1,805,407.21 DAI will be transferred to 0x1A5B692029b157df517b7d21a32c8490b8692b0f on 2021-01-28
 
 #### Fund Management
 

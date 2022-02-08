@@ -7,17 +7,14 @@ MIP40c3-SP#: 49
 Author(s): Deimos
 Contributors:
 Tags: core-unit, cu-mkt-001, budget, dai-budget
-Status: RFC
+Status: Accepted
 Date Applied: 2021-12-08
-Date Ratified:
+Date Ratified: 2022-01-24
 Forum URL: https://forum.makerdao.com/t/mip40c3-sp49-modify-core-unit-budget-mkt-001
+Ratification Poll URL: https://vote.makerdao.com/polling/QmYk1XN5
 ```
 
 ## Sentence Summary
-
-MIP40c3-SP49 removes all and any active budgets for the Content Production Core Unit---Dai or MKR.
-
-## Paragraph Summary
 
 MIP40c3-SP49 removes all and any active budgets for the Content Production Core Unit---Dai or MKR.
 
