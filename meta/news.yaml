@@ -6,21 +6,21 @@ data:
     timelock: 1 minute
     type: GREEN
     link: http://159.203.86.45:8000/mips/details/MIP1
-    linkForum: $linkForum
-    linkMd: $linkMd  
+    linkForum: $linkForum1
+    linkMd: $linkMd1
   - id: ITEM-2
     title: $title2
     description: $description2
     timelock: 10 seconds
     type: YELLOW
     link: http://159.203.86.45:8000/mips/details/MIP3
-    linkForum: $linkForum
-    linkMd: $linkMd
+    linkForum: $linkForum2
+    linkMd: $linkMd2
   - id: ITEM-3
     title: $title3
     description: $description3
     timelock: 1200000
     type: RED
     link: http://159.203.86.45:8000/mips/details/MIP4
-    linkForum: $linkForum
-    linkMd: $linkMd
+    linkForum: $linkForum3
+    linkMd: $linkMd3
