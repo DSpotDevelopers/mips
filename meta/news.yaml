@@ -9,7 +9,7 @@ data:
   - id: ITEM-2
     title: $title2
     description: $description2
-    timelock: 30 seconds
+    timelock: 10 seconds
     type: YELLOW
     link: http://159.203.86.45:8000/mips/details/MIP3
   - id: ITEM-3
