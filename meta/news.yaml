@@ -5,7 +5,7 @@ data:
     description: $description1
     timelock: 1 minute
     type: GREEN
-    link: http://159.203.86.45:8000/mips/details/MIP1
+    link: $apiUrl/mips/details/MIP1
   - id: ITEM-2
     title: $title2
     description: $description2
