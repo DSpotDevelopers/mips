@@ -6,7 +6,7 @@ data:
     timelock: 1 minute
     type: GREEN
     mip: $numbMip1
-    link: ${apiUrl}/mips/details/$numbMip1
+    link: https://mips.makerdao.com/mips/details/MIP0
     linkforum: $linkforum1
     linkmd: $linkmd1
   - id: ITEM-2
@@ -15,7 +15,7 @@ data:
     timelock: 10 seconds
     type: YELLOW
     mip: $numbMip2
-    link: ${apiUrl}/mips/details/$numbMip2
+    link: https://mips.makerdao.com/mips/details/MIP0
     linkforum: $linkforum2
     linkmd: $linkmd2
   - id: ITEM-3
@@ -24,6 +24,6 @@ data:
     timelock: 1200000
     type: RED
     mip: $numbMip3
-    link: ${apiUrl}/mips/details/$numbMip3
+    link: https://mips.makerdao.com/mips/details/MIP0
     linkforum: $linkforum3
     linkmd: $linkmd3
