@@ -5,7 +5,6 @@ data:
     description: $description1
     timelock: 1 minute
     type: GREEN
-    mip: $numbMip1
     link: https://mips.makerdao.com/mips/details/MIP0
     linkforum: $linkforum1
     linkmd: $linkmd1
@@ -14,7 +13,6 @@ data:
     description: $description2
     timelock: 10 seconds
     type: YELLOW
-    mip: $numbMip2
     link: https://mips.makerdao.com/mips/details/MIP0
     linkforum: $linkforum2
     linkmd: $linkmd2
@@ -23,7 +21,6 @@ data:
     description: $description3
     timelock: 1200000
     type: RED
-    mip: $numbMip3
     link: https://mips.makerdao.com/mips/details/MIP0
     linkforum: $linkforum3
     linkmd: $linkmd3
