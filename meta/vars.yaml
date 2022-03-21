@@ -45,8 +45,8 @@ reserved:
 news: 
   title1: There were some chanages. 
   description1: Description one
-  linkForum1: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
-  linkMd1: http://localhost:4200/mips/md-viewer?mdUrl=https:%2F%2Fraw.githubusercontent.com%2Fmakerdao%2Fmips%2Fmaster%2FMIP0%2FGeneral-MIP-Template.md
+  linkforum1: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
+  linkmd1: http://localhost:4200/mips/md-viewer?mdUrl=https:%2F%2Fraw.githubusercontent.com%2Fmakerdao%2Fmips%2Fmaster%2FMIP0%2FGeneral-MIP-Template.md
   title2: Title two
   description2: Description two
   title3: Title three
