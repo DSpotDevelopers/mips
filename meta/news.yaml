@@ -1,16 +1,18 @@
-key: news
- - ITEM-1
-    title: $title1 
-    timelock: 3000
-    description: $description
-    type: GREEN
- - ITEM-2
-    title: $title1 
-    timelock: 3000
-    description: $description
-    type: YELLOW
- - ITEM-3
-    title: $title1 
-    timelock: 3000
-    description: $description
-    type: YELLOW
+news:
+ - id: ITEM-1
+   title: $title1 
+   timelock: 3000
+   description: $description
+   type: GREEN
+
+ - id: ITEM-2 
+   title: $title2
+   timelock: 3000
+   description: $description2
+   type: YELLOW
+
+ - id: ITEM-3
+   title: $title3 
+   timelock: 3000
+   description: $description3
+   type: RED
