@@ -16,6 +16,9 @@ Dependencies: n/a
 Replaces: n/a
 Ratification Poll URL:
 Forum URL: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
+Extra: This is an example
+Extra: This is the correct [link](https://google.com/) of the voting
+Extra: `Hola` mundo
 ```
 
 ## References
