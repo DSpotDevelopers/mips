@@ -12,7 +12,9 @@ Date Ratified: 2020-05-02
 Notes: Originally MIP0c12-SP1. MIP0's components got rearranged.
 ---
 Core Personnel Role: MIP Editor
-Extra: This is an `example` of an Aditional Content with [md suport](https://www.markdownguide.org/basic-syntax/)
+Extra: This is an example or regular text
+Extra: This is the correct [link](https://vote.makerdao.com/) of the voting portal
+Extra: The Maker Improvement Proposals Framework requires a MIP Editor when the framework becomes ratified. Given that I am closest to the process and am driven towards making the Protocol self-sustainable, I am propsing myself to take on the MIP Editor role. As the MIP Editor, I will support and enforce the administrative and editorial aspects of the overall MIPs process and framework. For the full list of resposibilities, please reference [`MIP0c9: MIP Editor Role`](https://github.com/makerdao/mips/blob/master/MIP0/mip0.md#mip0c9-mip-editor-role).
 Proposed applicant: Charles St.Louis
 ```
 
