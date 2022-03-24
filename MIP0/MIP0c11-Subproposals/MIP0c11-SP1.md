@@ -12,6 +12,7 @@ Date Ratified: 2020-05-02
 Notes: Originally MIP0c12-SP1. MIP0's components got rearranged.
 ---
 Core Personnel Role: MIP Editor
+Extra: This is an `example` of an Aditional Content with [md suport](https://www.markdownguide.org/basic-syntax/)
 Proposed applicant: Charles St.Louis
 ```
 
