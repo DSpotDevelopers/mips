@@ -1,1 +1,16 @@
-test
+key: news
+ - ITEM-1
+    title: $title1 
+    timelock: 3000
+    description: $description
+    type: GREEN
+ - ITEM-2
+    title: $title1 
+    timelock: 3000
+    description: $description
+    type: YELLOW
+ - ITEM-3
+    title: $title1 
+    timelock: 3000
+    description: $description
+    type: YELLOW
