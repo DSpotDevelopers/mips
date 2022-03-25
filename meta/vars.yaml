@@ -45,6 +45,9 @@ reserved:
 news: 
   title1: There were some chanages. 
   description1: Description one
+  link1: http://159.203.86.45:8000/mips/details/MIP0
+  linkforum1: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
+  linkmd1: http://159.203.86.45:8000/mips/details/MIP0
   title2: Title two
   description2: Description two
   title3: Title three  
