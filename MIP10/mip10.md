@@ -8,6 +8,7 @@ Title: Oracle Management
 Author(s): Niklas Kunkel (@NiklasKunkel), Charles St.Louis (CPSTL), Rune Christensen (@Rune23)
 Tags: process, oracles, mip-set, collateral-onboarding-mipset
 Type: Process
+Extra: **[Link to](https://github.com/DSpotDevelopers/mips/edit/master/MIP10/mip10.md)** github page of `MIP10` and more.
 Status: Accepted
 Date Proposed: 2020-04-06
 Date Ratified: 2020-05-02
