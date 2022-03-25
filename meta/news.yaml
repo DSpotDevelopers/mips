@@ -23,11 +23,3 @@ data:
     link: $link3
     linkforum: $linkforum3
     linkmd: $linkmd3
-  - id: ITEM-4
-    title: $title4
-    timelock: 1 week
-    description: $description4
-    type: RED
-    link: $link4
-    linkforum: $linkforum4
-    linkmd: $linkmd4
