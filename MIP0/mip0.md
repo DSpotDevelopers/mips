@@ -16,7 +16,7 @@ Dependencies: n/a
 Replaces: n/a
 Ratification Poll URL:
 Forum URL: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
-Extra: This is an `example` of an **Aditional Content** with [md suport](https://www.markdownguide.org/basic-syntax/) 
+Extra: This is an `example` of an **Aditional Content** with [md suport](https://www.markdownguide.org/basic-syntax/) test.
 ```
 
 ## References
