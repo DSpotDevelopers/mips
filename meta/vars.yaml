@@ -52,4 +52,6 @@ news:
   description2: This is an `example` of an Aditional Content with [md suport](https://www.markdownguide.org/basic-syntax/)
   title3: Title three
   description3: This other exmaple otro texto Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.but also the leap into electronic typesetting, remaining essentially unchanged [md suport](https://www.markdownguide.org/basic-syntax/)
-  linkmd2: http://159.203.86.45:8000/mips/details/MIP7 
+  linkmd2: http://159.203.86.45:8000/mips/details/MIP7
+  title4: There were some chanages.in 4 links
+  description4: Description one
