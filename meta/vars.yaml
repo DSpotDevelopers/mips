@@ -51,7 +51,7 @@ news:
   title2: Title two
   description2: This is an `example` of an **bold text** **other** Aditional Content with [md suport](https://www.markdownguide.org/basic-syntax/)
   title3: Title three test layout space and also the
-  description3: This other exmaple otro texto Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.but also the leap into electronic typesetting, remaining essentially unchanged [md suport](https://www.markdownguide.org/basic-syntax/)
+  description3: This unchanged [md suport](https://www.markdownguide.org/basic-syntax/)
   title4: Test title 5 and see how its work let see 
   description4: Description one otros exampless para ver
   link4: http://159.203.86.45:8000/mips/details/MIP0
