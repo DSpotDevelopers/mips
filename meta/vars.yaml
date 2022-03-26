@@ -52,8 +52,8 @@ news:
   description2: This is an `example` of an **bold text** **other** Aditional Content with [md suport](https://www.markdownguide.org/basic-syntax/)
   title3: Title three test layout space and also the
   description3: This unchanged [md suport](https://www.markdownguide.org/basic-syntax/)
-  title4: Test title 5 and see how its work let see 
-  description4: Description one otros exampless para ver
+  title4: Test title 4 and see how its work let see 
+  description4: Description one otros exampless para ver need see heading line yaml
   link4: http://159.203.86.45:8000/mips/details/MIP0
   linkforum4: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
   linkmd4: https://github.com/DSpotDevelopers/mips/blob/master/MIP1/mip1.md
