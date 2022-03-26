@@ -2,7 +2,7 @@ data:
   - id: ITEM-1
     title: $title1
     description: $description1
-    timelock: 10 seconds
+    timelock: 5000
     type: GREEN
     link: $link1
     linkforum: $linkforum1
@@ -10,7 +10,7 @@ data:
   - id: ITEM-2
     title: $title2
     description: $description2
-    timelock: 30 seconds
+    timelock: 10 seconds
     type: YELLOW
     link: $link2
     linkforum: $linkforum2
@@ -23,3 +23,11 @@ data:
     link: $link3
     linkforum: $linkforum3
     linkmd: $linkmd3
+  - id: ITEM-4
+    title: $title4
+    timelock: 3000
+    description: $description4
+    type: RED
+    link: $link4
+    linkforum: $linkforum4
+    linkmd: $linkmd4
