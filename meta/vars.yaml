@@ -48,6 +48,7 @@ news:
   link1: http://159.203.86.45:8000/mips/details/MIP0
   linkforum1: https://forum.makerdao.com/t/mip0-the-maker-improvement-proposal-framework/1902
   linkmd1: https://github.com/DSpotDevelopers/mips/blob/master/MIP1/mip1.md
+  timelock1: 3000
   title2: Title two
   description2: This is an `example` of an **bold text** **other** Aditional Content with [md suport](https://www.markdownguide.org/basic-syntax/)
   title3: Title three test layout space and also the
