@@ -2,7 +2,7 @@ data:
   - id: ITEM-1
     title: $title1
     description: $description1
-    timelock: 5000
+    timelock: $timelock1
     type: GREEN
     link: $link1
     linkforum: $linkforum1
