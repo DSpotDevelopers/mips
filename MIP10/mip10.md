@@ -17,7 +17,8 @@ Replaces: n/a
 Ratification Poll URL:
 Forum URL: https://forum.makerdao.com/t/mip17-weekly-actual-debt-ceiling-and-actual-risk-premium-adjustments/3021
 Extra: Description...
-Extra: textoo **[MIP10c2-Subproposal-Template.md](MIP10c2-Subproposal-Template.md)**
+Extra: testing **[MIP10c2-Subproposal-Template.md](MIP10c2-Subproposal-Template.md)**
+Extra: ![Image](https://i.imgur.com/ZkXPh8h.png)
 ```
 
 ## References
