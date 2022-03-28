@@ -17,7 +17,7 @@ data:
     linkmd: $linkmd2
   - id: ITEM-3
     title: $title3
-    timelock: 1 week
+    timelock: 10000
     description: $description3
     type: RED
     link: $link3
