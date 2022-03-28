@@ -17,7 +17,7 @@ data:
     linkmd: $linkmd2
   - id: ITEM-3
     title: $title3
-    timelock: 15000
+    timelock: 1000
     description: $description3
     type: RED
     link: $link3
@@ -25,7 +25,7 @@ data:
     linkmd: $linkmd3
   - id: ITEM-4
     title: $title4
-    timelock: 20000
+    timelock: 10000
     description: $description4
     type: RED
     link: $link4
