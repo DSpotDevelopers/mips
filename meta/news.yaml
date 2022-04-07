@@ -1,7 +1,7 @@
 data:
   - id: ITEM-1
     title: $title1
-    description: $description1
+    description: "Hello"
     timelock: 3000
     type: GREEN
     link: $link1
@@ -9,7 +9,7 @@ data:
     linkmd: $linkmd1
   - id: ITEM-2
     title: $title2
-    description: $description2
+    description: Hello
     timelock: 5000
     type: YELLOW
     link: $link2
