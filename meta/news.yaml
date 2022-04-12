@@ -1,33 +1,6 @@
 data:
-  - id: ITEM-1
-    title: $title1
-    description: $description1
-    timelock: 3000
-    type: GREEN
-    link: $link1
-    linkforum: $linkforum1
-    linkmd: $linkmd1
-  - id: ITEM-2
-    title: $title2
-    description: $description2
-    timelock: 5000
-    type: YELLOW
-    link: $link2
-    linkforum: $linkforum2
-    linkmd: $linkmd2
-  - id: ITEM-3
-    title: $title3
-    timelock: 1000
-    description: $description3
+  - id: RATIFICATION-POLLS
+    title: $title
+    description: $description
+    timelock: 3600
     type: RED
-    link: $link3
-    linkforum: $linkforum3
-    linkmd: $linkmd3
-  - id: ITEM-4
-    title: $title4
-    timelock: 10000
-    description: $description4
-    type: RED
-    link: $link4
-    linkforum: $linkforum4
-    linkmd: $linkmd4
