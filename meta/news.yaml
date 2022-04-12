@@ -1,6 +1,6 @@
 data:
   - id: RATIFICATION-POLLS
-    title: Commin Language Title
+    title: Common Language Title
     description: $description
     timelock: 3600
     type: RED
