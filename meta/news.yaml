@@ -4,4 +4,8 @@ data:
     description: $description
     timelock: 2 hours
     type: RED
-    
+  - id: RATIFICATION-TEST
+    title: $title2
+    description: $description2
+    timelock: 2 hours
+    type: GREEN  
