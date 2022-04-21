@@ -122,7 +122,7 @@ data:
           - id: tech-001
             name: 'TECH-001: TechOps'
             href: >-
-                https://mips.makerdao.com/mips/list?customViewName=TechOps%20Core%20Unit%20(TECH-001)%20Subproposals&_Active%20Subproposals=$AND(%23active,%23cu-tech-001)&_Archive=$AND(NOT(%23active),%23cu-tech-001)
+                https://mips.makerdao.com/mips/list?customViewName=TechOps%20Core%20Unit%20(TECH-001)%20Subproposals&_Active%20Subproposals=$AND(%23active,%23cu-tech-001)&_Archive=$AND(NOT(%23active),%23cu-tech-001)&shouldBeExpandedMultiQuery=true
       - id: mipsets
         name: MIP Sets
         href: 'https://mips.makerdao.com/mips/list?&search=&mipsetMode=true'
