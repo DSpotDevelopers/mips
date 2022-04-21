@@ -74,7 +74,7 @@ data:
           - id: gov-001
             name: 'GOV-001: Governance'
             href: >-
-                https://mips.makerdao.com/mips/list?customViewName=GovAlpha%20Core%20Unit%20(GOV-001)%20Subproposals&_Active%20Subproposals=$AND(%23active,%23cu-gov-001)&_Archive=$AND(NOT(%23active),%23cu-gov-001)
+                https://mips.makerdao.com/mips/list?customViewName=GovAlpha%20Core%20Unit%20(GOV-001)%20Subproposals&_Active%20Subproposals=$AND(%23active,%23cu-gov-001)&_Archive=$AND(NOT(%23active),%23cu-gov-001)&shouldBeExpandedMultiQuery=true
           - id: gro-001
             name: 'GRO-001: Growth'
             href: >-
