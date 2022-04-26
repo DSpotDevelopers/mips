@@ -13,9 +13,4 @@ data:
     title: $title
     description: $description
     timelock: 2 hours
-    type: YELLOW  
-  - id: RATIFICATION-POLLS-3
-    title: $title
-    description: $description
-    timelock: 2 hours
-    type: BLUE   
+    type: YELLOW
