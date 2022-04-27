@@ -15,5 +15,5 @@ data:
     title: $title
     description: $description
     timelock: 1 hours
-    type: YELLOW
+    type: GREEN
     
