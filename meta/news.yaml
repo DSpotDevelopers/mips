@@ -4,33 +4,33 @@ data:
     description: $description
     timelock: 2 hours
     type: RED
-    #link: $link1
-    #linkforum: $linkforum1
-    #linkmd: $linkmd1
+    link: $link1
+    linkforum: $linkforum1
+    linkmd: $linkmd1
     
   - id: RATIFICATION-POLLS-2
     title: $title
     description: $description
     timelock: 1 hours
     type: YELLOW
-    #link: $link1
-    #linkforum: $linkforum1
-    #linkmd: $linkmd1
+    link: $link1
+    linkforum: $linkforum1
+    linkmd: $linkmd1
     
   - id: RATIFICATION-POLLS-2
     title: $title
     description: $description
     timelock: 1 hours
     type: GREEN
-    #link: $link1
-    #linkforum: $linkforum1
-    #linkmd: $linkmd1
+    link: $link1
+    linkforum: $linkforum1
+    linkmd: $linkmd1
     
   - id: RATIFICATION-POLLS-2
     title: $title
     description: $description
     timelock: 1 hours
     type: BLUE
-    #link: $link1
-    #linkforum: $linkforum1
-    #linkmd: $linkmd1
+    link: $link1
+    linkforum: $linkforum1
+    linkmd: $linkmd1
