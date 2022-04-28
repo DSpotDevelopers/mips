@@ -17,3 +17,10 @@ data:
     timelock: 1 hours
     type: GREEN
     
+  - id: RATIFICATION-POLLS-2
+    title: $title
+    description: $description
+    timelock: 1 hours
+    type: BLUE
+    
+    
