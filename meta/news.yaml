@@ -34,12 +34,3 @@ data:
     link: $link1
     linkforum: $linkforum1
     linkmd: $linkmd1
-    
-  - id: RATIFICATION-POLLS-10
-    title: $title
-    description: $description
-    timelock: 1 hours
-    type: RED   
-    link: $link1
-    linkforum: $linkforum1
-    linkmd: $linkmd1
