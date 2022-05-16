@@ -39,4 +39,7 @@ data:
     title: $title
     description: $description
     timelock: 1 hours
-    type: RED    
+    type: RED   
+    link: $link1
+    linkforum: $linkforum1
+    linkmd: $linkmd1
